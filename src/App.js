@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
-import { Nav,Row,Col,Offcanvas,FormControl,Form,Carousel } from 'react-bootstrap';
+import { Nav,Offcanvas,Carousel } from 'react-bootstrap';
 
 function App() {
   return (
@@ -79,11 +78,7 @@ function App() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-  <Row>
-    <Col xs>First, but unordered</Col>
-    <Col xs={{ order: 12 }}>Second, but last</Col>
-    <Col xs={{ order: 1 }}>Third, but second</Col>
-  </Row>
+
 </>
     </div>
   );
